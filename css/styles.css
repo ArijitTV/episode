@@ -1,0 +1,157 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+padding: 10px;
+font-family: 'Sacramento', cursive;
+color: white;
+font-size: 5.625rem;
+}
+
+/* 16px=100%=1em=1rem */
+
+.ceo {
+  color: #F3F1F5 ;
+}
+
+.ceo:hover {
+   animation: bounce;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+a {
+  color: #FF7B54;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-weight: normal;
+  color: #FF7B54;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 5%;
+  color: #F3F1F5;
+}
+
+.profile-img {
+  width: 25%;
+}
+
+.profile-mssg {
+  color: white;
+}
+
+.top-container {
+  background-color: #FF5200;
+  margin-top: 0;
+  padding: 80px;
+  margin: 0 auto 100px auto;
+}
+
+.video {
+  padding: 10px;
+}
+
+.good {
+  color: #FF7B54;
+}
+
+
+
+.skill{
+   width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding-bottom: 40px;
+  line-height: 3;
+}
+
+.film:hover{
+  animation-name: bounce;
+}
+
+.coding-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.filmmaking-img {
+  width: 30%;
+  float:right;
+  margin-left: 30px;
+}
+
+.footer-link {
+  margin: 40px;
+}
+
+.bottom-container {
+  background-color: #FF5200;
+  padding-top: 50px;
+  margin-top: 6.25rem;
+  margin-bottom: 0;
+  line-height: 2;
+  padding-bottom: 40px;
+}
+
+.last-line {
+  color: white;
+  margin-top: 40px;
+}
+
+.contact-message {
+  margin: 40px auto 60px auto;
+}
+
+.btn {
+   background: #FF7B54;
+   background-image: -webkit-linear-gradient(top, #FF7B54, #FF5200);
+   background-image: -moz-linear-gradient(top, #FF7B54, #FF5200);
+   background-image: -ms-linear-gradient(top, #FF7B54, #FF5200);
+   background-image: -o-linear-gradient(top, #FF7B54, #FF5200);
+   background-image: -webkit-gradient(to bottom, #FF7B54, #FF5200);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 23px;
+   font-weight: 100;
+   padding: 16px;
+   border: solid #FF5200 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #FFAE00 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
