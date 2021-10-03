@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Sacramento', cursive;
+  color: white;
+  font-size: 5.625rem;
+}
+
+/* 16px=100%=1em=1rem */
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+img {
+  padding-top: 20px;
+  width: 20%;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-width: 7px;
+  width: 5%;
+  color: #F3F1F5;
+  /* color: #FF7B54; */
+}
+
+a {
+  color: #FF7B54;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+span {
+  color:#FF5200;
+}
+
+.top-container {
+  background-color: #FF5200;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+
+
+
+.profile-img {
+  width: 20%;
+}
+
+.intro-img {
+  width: 40%;
+  padding-top: 40px;
+}
+
+.skills-h2 {
+  color: black;
+}
+
+.skill {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding-bottom: 40px;
+  line-height: 3;
+}
+
+.coding-img  {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.filmmaking-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 70px;
+}
+
+.skill-h3 {
+  color: #FF7B54;
+}
+
+.ceo {
+  color: white;
+}
+
+.footer-link {
+ margin: 30px;
+}
+
+.bottom-container {
+  background-color: #FF5200;
+  margin-bottom: 0;
+  padding: 20px;
+  line-height: 2;
+}
+
+.last-line {
+  margin-bottom: 0;
+  padding: 20px 0;
+  color: white;
+}
